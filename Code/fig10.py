@@ -40,10 +40,15 @@ def intensityContour(audio=None, sr=16000, audioPath=None, startTime=0, duration
     
     '''
     startTime = math.floor(startTime)   # set start time to an integer, for better readability on the x axis of the plot
-    duration = math.ceil(duration)  # set duration to an integer, for better readability on the x axis of the plot
     if audio is None:
-        # if audio is not given, load audio from audioPath
+    # if audio is not given, load audio from audioPath
         audio, sr = librosa.load(audioPath, sr=sr, mono=True, offset=startTime, duration = duration)
+    if duration is None:
+        duration = librosa.get_duration(audio, sr=sr)
+        duration = math.floor(duration)  # set duration to an integer, for better readability on the x axis of the plot
+        audio = audio[:int(duration*sr)]    # ensure that audio length = duration
+    else:
+        duration = math.ceil(duration)  # set duration to an integer, for better readability on the x axis of the plot
     snd = parselmouth.Sound(audio, sr)
     intensity = snd.to_intensity(time_step=timeStep, minimum_pitch=minPitch)
     
