@@ -1,0 +1,77 @@
+{
+    "video_path": "Fig10/Data/video_overlay_with_sound.mp4",
+    "vox_audio_path": "Fig10/Data/NIR_VK_Multani_Vox.wav",
+    "mix_audio_path": "Fig10/Data/NIR_VK_Multani_StereoMix.wav",
+    "vk_movement_path": "Fig10/Data/person1.csv",
+    "vid_fps": 25,
+    "video_offset": -278,
+    "cycle_file": "Data/NIR_VK_Multani_Metre_VilambitEktal.csv",
+    "numDiv": 4,
+    "start_time": 298,
+    "duration": 20,
+    "tonic": 138.59,
+    "min_pitch": 103.83,
+    "max_pitch": 415.3,
+    "temp_folder": "Temp/",
+    "notes": [{
+            "label": "P_",
+            "cents": -500
+        },
+        {
+            "label": "d_",
+            "cents": -400
+        },
+        {
+            "label": "N_",
+            "cents": -200
+        },
+        {
+            "label": "S",
+            "cents": 0
+        },
+        {
+            "label": "r",
+            "cents": 100
+        },
+        {
+            "label": "g",
+            "cents": 300
+        },
+        {
+            "label": "m",
+            "cents": 600
+        },
+        {
+            "label": "P",
+            "cents": 700
+        },
+        {
+            "label": "d",
+            "cents": 800
+        },
+        {
+            "label": "N",
+            "cents": 1100
+        },
+        {
+            "label": "S'",
+            "cents": 1200
+        },
+        {
+            "label": "r'",
+            "cents": 1300
+        },
+        {
+            "label": "g'",
+            "cents": 1500
+        },
+        {
+            "label": "m'",
+            "cents": 1800
+        },
+        {
+            "label": "P'",
+            "cents": 1900
+        }
+    ]
+}
