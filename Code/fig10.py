@@ -134,8 +134,13 @@ def plot_hand(annotationFile=None, startTime=0, duration=None, freqXLabels=5, vi
 
     '''
     startTime = math.floor(startTime) + np.around(vidOffset)   # set start time to an integer, for better readability on the x axis of the plot
-    duration = math.ceil(duration)  # set duration to an integer, for better readability on the x axis of the plot
+    
     movements = pd.read_csv(annotationFile, header=[0, 1])
+    if duration is None:
+        duration = movements.shape[0]/vidFps
+        duration = math.floor(duration)  # set duration to an integer, for better readability on the x axis of the plot
+    else:
+        duration = math.ceil(duration)  # set duration to an integer, for better readability on the x axis of the plot
     lWrist = movements[lWristCol][wristAxis].values[startTime*vidFps:(startTime+duration)*vidFps]
     rWrist = movements[rWristCol][wristAxis].values[startTime*vidFps:(startTime+duration)*vidFps]
     xvals = np.linspace(0, duration, vidFps*duration, endpoint=False)
