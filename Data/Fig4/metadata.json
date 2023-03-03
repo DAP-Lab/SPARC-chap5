@@ -1,7 +1,7 @@
 {
-    "vocal_audio_path": "Fig4/Data/NIRP1_RamD_RagBah_Vox.wav",
-    "mix_audio_path": "Fig4/Data/NIRP1_RamD_RagBah_Stereomix.wav",
-    "tabla_audio_path": "Fig4/Data/NIRP1_RamD_RagBah_Tabla.wav",
-    "cycle_file": "Fig4/Data/NIRP1_RamD_RagBah_Teental.csv",
+    "vocal_audio_path": "Data/NIRP1_RamD_RagBah_Vox.wav",
+    "mix_audio_path": "Data/NIRP1_RamD_RagBah_Stereomix.wav",
+    "tabla_audio_path": "Data/NIRP1_RamD_RagBah_Tabla.wav",
+    "cycle_file": "Data/NIRP1_RamD_RagBah_Teental.csv",
     "num_div": 4
 }
