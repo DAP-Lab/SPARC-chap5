@@ -8,7 +8,7 @@ import sys
 sys.path.append('../')
 from utils import drawAnnotation
 
-def intensityContour(audio=None, sr=16000, audioPath=None, startTime=0, duration=None, minPitch=98, timeStep=0.01, ax=None, freqXlabels=5, annotate=False, cyclePath=None, numDiv=0, onsetPath=None, onsetTimeKeyword='Inst', onsetLabelKeyword='Label', xticks=False, yticks=False, cAnnot='red', annotLabel=True, annotAlpha=0.8):
+def intensityContour(audio=None, sr=16000, audioPath=None, startTime=0, duration=None, minPitch=98, timeStep=0.01, ax=None, freqXlabels=5, annotate=False, cyclePath=None, numDiv=0, onsetPath=None, onsetTimeKeyword='Inst', onsetLabelKeyword='Label', xticks=False, yticks=False, xlabel=True, ylabel=True, cAnnot='red', annotLabel=True, annotAlpha=0.8):
     '''Calculates the intensity contour for an audio clip
 
     Parameters
@@ -29,6 +29,8 @@ def intensityContour(audio=None, sr=16000, audioPath=None, startTime=0, duration
         onsetLabelKeyword (str): column name with labels for the onsets; if None, no label will be printed
         xticks (bool): if True, will plot xticklabels
         yticks (bool): if True, will plot yticklabels
+        xlabel (bool): if true, will add an xlabel
+        ylabel (bool): if true, will add a ylabel
         annotLabel (bool): if True, will print annotation label along with line; used only if annotate is True; used only if annotate is True
         cAnnot (str): color of the annotation
         annotAlpha: controls opacity of the annotation lines
@@ -51,7 +53,7 @@ def intensityContour(audio=None, sr=16000, audioPath=None, startTime=0, duration
     # plot the contour
     return plotIntensity(intensity=intensity, ax=ax, startTime=startTime, duration=duration, freqXlabels=freqXlabels, xticks=xticks, yticks=yticks, annotate=annotate, cyclePath=cyclePath, numDiv=numDiv, onsetPath=onsetPath, onsetTimeKeyword=onsetTimeKeyword, onsetLabelKeyword=onsetLabelKeyword, cAnnot=cAnnot, annotLabel=annotLabel, annotAlpha=annotAlpha)
 
-def plotIntensity(intensity=None, ax=None, startTime=0, duration=None, freqXlabels=5, xticks=True, yticks=True, annotate=False, cyclePath=None, numDiv=0, onsetPath=None, onsetTimeKeyword='Inst', onsetLabelKeyword='Label', cAnnot='red', annotLabel=True, annotAlpha=0.8):
+def plotIntensity(intensity=None, ax=None, startTime=0, duration=None, freqXlabels=5, xticks=True, yticks=True, xlabel=True, ylabel=True,annotate=False, cyclePath=None, numDiv=0, onsetPath=None, onsetTimeKeyword='Inst', onsetLabelKeyword='Label', cAnnot='red', annotLabel=True, annotAlpha=0.8):
     '''Function to plot a computed intensity contour
 
     Parameters
@@ -62,6 +64,8 @@ def plotIntensity(intensity=None, ax=None, startTime=0, duration=None, freqXlabe
         freqXlabels (int): time (in seconds) after which each x label occurs
         xticks (bool): if True, will print x tick labels
         yticks (bool): if True, will print y tick labels
+        xlabel (bool): if true, will add an xlabel
+        ylabel (bool): if true, will add a ylabel
         annotate (bool): if True will mark annotations provided
         cyclePath (str): path to file with cycle annotations; used only if annotate is True
         numDiv (int): number of divisions to add between each marked cycle; used only if annotate is True
