@@ -1,0 +1,7 @@
+{
+    "guitar_audio_path": "Fig5/Data/NIR_DBh_Malhar_2Gats_Guitar.wav",
+    "tabla_audio_path": "Fig5/Data/NIR_DBh_Malhar_2Gats_Tabla.wav",
+    "mix_audio_path": "Fig5/Data/NIR_DBh_Malhar_2Gats_StereoMix.wav",
+    "cycle_file": "Fig5/Data/NIR_DBh_Malhar_2Gats_Metre_DrutTeental.csv",
+    "num_div": 0
+}
