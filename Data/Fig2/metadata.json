@@ -1,0 +1,61 @@
+{
+    "min_pitch": 220,
+    "max_pitch": 880,
+    "start_time": 1140,
+    "duration": 30,
+    "sitar_audio_path": "/content/SPARC-chap5/Data/Fig2/NIR_ABh_Puriya_Sitar1.wav",
+    "mix_audio_path": "/content/SPARC-chap5/Data/Fig2/NIR_ABh_Puriya_StereoMix.wav",
+    "cycle_file": "/content/SPARC-chap5/Data/Fig2/NIR_ABh_Puriya_Metre_VilambitTeental.csv",
+    "onset_file": "/content/SPARC-chap5/Data/Fig2/NIR_ABh_Puriya_Onsets_Selected_VilambitTeental.csv",
+    "tonic": 293.66,
+    "notes": [{
+            "label": "D_",
+            "cents": -300
+        },
+        {
+            "label": "N_",
+            "cents": -100
+        },
+        {
+            "label": "S",
+            "cents": 0
+        },
+        {
+            "label": "r",
+            "cents": 100
+        },
+        {
+            "label": "G",
+            "cents": 400
+        },
+        {
+            "label": "m",
+            "cents": 600
+        },
+        {
+            "label": "D",
+            "cents": 900
+        },
+        {
+            "label": "N",
+            "cents": 1100
+        },
+        {
+            "label": "S'",
+            "cents": 1200
+        },
+        {
+            "label": "r'",
+            "cents": 1300
+        },
+        {
+            "label": "G'",
+            "cents": 1600
+        },
+        {
+            "label": "m'",
+            "cents": 1800
+        }
+    ],
+    "num_div": 4
+}
