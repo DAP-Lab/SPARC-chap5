@@ -19,7 +19,7 @@ def annotateInteraction(axs, keywords, cs, interactionFile, startTime=0, duratio
     annotations = pd.read_csv(interactionFile, header=None)
     annotations.columns = ['Type', 'Start Time', 'End Time', 'Duration', 'Label']
     if duration is None:
-        duration = annotation.iloc[-1, 2] - startTime
+        duration = annotations.iloc[-1, 2] - startTime
     annotations = annotations.loc[((annotations['Start Time'] >= startTime) & (annotations['Start Time'] <= startTime+duration)) &
                                 ((annotations['End Time'] >= startTime) & (annotations['End Time'] <= startTime+duration))
                                 ]
