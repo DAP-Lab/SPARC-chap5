@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-def annotateInteraction(axs, keywords, cs, interactionFile, startTime, duration):
+def annotateInteraction(axs, keywords, cs, interactionFile, startTime=0, duration=None):
     '''Adds interaction annotation to the axes given
 
     Parameters
