@@ -1,8 +1,6 @@
 {
     "min_pitch": 165,
     "max_pitch": 440,
-    "start_time": 500,
-    "duration": 30,
     "vocal_audio_path": "/content/SPARC-chap5/Data/Fig1/NIR_VS_Bhoop_Vox.wav",
     "mix_audio_path": "/content/SPARC-chap5/Data/Fig1/NIR_VS_Bhoop_StereoMix.wav",
     "cycle_file": "/content/SPARC-chap5/Data/Fig1/NIR_VS_Bhoop_Metre_VilambitEktal-edited.csv",
