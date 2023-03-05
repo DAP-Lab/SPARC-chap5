@@ -1,0 +1,57 @@
+{
+    "min_pitch": 165,
+    "max_pitch": 440,
+    "start_time": 500,
+    "duration": 30,
+    "vocal_audio_path": "Data/NIR_VS_Bhoop_Vox.wav",
+    "mix_audio_path": "Data/NIR_VS_Bhoop_StereoMix.wav",
+    "cycle_file": "Data/NIR_VS_Bhoop_Metre_VilambitEktal-edited.csv",
+    "tonic": 220,
+    "notes": [
+        {
+            "label": "P_",
+            "cents": -500
+        },
+        {
+            "label": "D_",
+            "cents": -300
+        },
+        {
+            "label": "S",
+            "cents": 0
+        },
+        {
+            "label": "R",
+            "cents": 200
+        },
+        {
+            "label": "G",
+            "cents": 400
+        },
+        {
+            "label": "P",
+            "cents": 700
+        },
+        {
+            "label": "D",
+            "cents": 900
+        },
+        {
+            "label": "S'",
+            "cents": 1200
+        },
+        {
+            "label": "R'",
+            "cents": 1400
+        },
+        {
+            "label": "G'",
+            "cents": 1600
+        },
+        {
+            "label": "P'",
+            "cents": 1900
+        }
+    ],
+    "num_div": 4
+}
