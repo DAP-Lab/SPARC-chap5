@@ -229,7 +229,7 @@ def plotPitch(pitchvals=None, timevals=None, notes=None, ax=None, tonic=None, st
         Exception('ax parameter has to be provided')
     
     # duration = xvals[-1] + 1    # set duration as last x value + 1
-    ax = plt.plot(timevals, pitchvals, ax=ax)
+    ax.plot(timevals, pitchvals)
     ax.set(xlabel='Time Stamp (s)' if xlabel else '', 
     ylabel='Notes' if ylabel else '', 
     title=title, 
