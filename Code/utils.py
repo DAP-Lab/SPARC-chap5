@@ -1,9 +1,9 @@
 import warnings
+import matplotlib
 from matplotlib import pyplot as plt
 import pandas as pd
 import numpy as np
 import librosa
-import seaborn as sns
 import scipy.signal as sig
 from librosa.display import waveplot, specshow
 from IPython.display import Audio, Video 
@@ -11,7 +11,8 @@ import parselmouth
 import math
 import soundfile as sf
 import ffmpeg
-sns.set_theme(rc={"xtick.bottom" : True, "ytick.left" : False, "xtick.major.size":4, "xtick.minor.size":2, "ytick.major.size":4, "ytick.minor.size":2, "xtick.labelsize": 10, "ytick.labelsize": 10})
+plt.style.use('ggplot')
+matplotlib.rc={"xtick.bottom" : True, "ytick.left" : False, "xtick.major.size":4, "xtick.minor.size":2, "ytick.major.size":4, "ytick.minor.size":2, "xtick.labelsize": 10, "ytick.labelsize": 10}
 
 def readCycleAnnotation(cyclePath, numDiv, startTime, duration):
     '''Function to read cycle annotation and add divisions in the middle if required.
@@ -228,7 +229,7 @@ def plotPitch(pitchvals=None, timevals=None, notes=None, ax=None, tonic=None, st
         Exception('ax parameter has to be provided')
     
     # duration = xvals[-1] + 1    # set duration as last x value + 1
-    ax = sns.lineplot(x=timevals, y=pitchvals, ax=ax)
+    ax = plt.plot(x=timevals, y=pitchvals, ax=ax)
     ax.set(xlabel='Time Stamp (s)' if xlabel else '', 
     ylabel='Notes' if ylabel else '', 
     title=title, 
