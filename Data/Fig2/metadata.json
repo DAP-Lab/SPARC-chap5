@@ -1,8 +1,6 @@
 {
     "min_pitch": 220,
     "max_pitch": 880,
-    "start_time": 1140,
-    "duration": 30,
     "sitar_audio_path": "/content/SPARC-chap5/Data/Fig2/NIR_ABh_Puriya_Sitar1.wav",
     "mix_audio_path": "/content/SPARC-chap5/Data/Fig2/NIR_ABh_Puriya_StereoMix.wav",
     "cycle_file": "/content/SPARC-chap5/Data/Fig2/NIR_ABh_Puriya_Metre_VilambitTeental.csv",

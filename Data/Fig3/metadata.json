@@ -1,0 +1,13 @@
+{
+    "start_time": 277,
+    "duration": 17.7,
+    "num_div": 4,
+    "sarod_audio_path": "/content/SPARC-chap5/Data/Fig3/NIR_PrB_Jhinjhoti_2Gats_Sarod.wav",
+    "mix_audio_path": "/content/SPARC-chap5/Data/Fig3/NIR_PrB_Jhinjhoti_2Gats_StereoMix.wav",
+    "tabla_audio_path": "/content/SPARC-chap5/Data/Fig3/NIR_PrB_Jhinjhoti_2Gats_Tabla.wav",
+    "cycle_file": "/content/SPARC-chap5/Data/Fig3/NIR_PrB_jhinjhoti_2Gats_Metre_Rupak.csv",
+    "gat_annotation_file": "/content/SPARC-chap5/Data/Fig3/NIR_PrB_Jhinjhoti_2Gats_Annotation.csv",
+    "onset_file": "/content/SPARC-chap5/Data/Fig3/NIR_PrB_Jhinjhoti_2Gats_Onsets_Selected_Rupak.csv",
+    "annotation_keywords": ["SAROD", "TABLA", "INTERACTION"],
+    "annotation_colors": ["orange", "blue", "purple"]
+}
