@@ -1,0 +1,97 @@
+{
+    "video_path": "/content/SPARC-chap5/Data/Fig9/VS_Shree_1235_1321.mp4",
+    "vox_audio_path": "/content/SPARC-chap5/Data/Fig9/VS_Shree_1235_1321_SS.wav",
+    "mix_audio_path": "/content/SPARC-chap5/Data/Fig9/VS_Shree_1235_1321.mp4",
+    "min_pitch": 164.81,
+    "max_pitch": 659.25,
+    "annotation_path": "/content/SPARC-chap5/Data/Fig9/Observer.csv",
+    "temp_folder": "Temp/",
+    "vid_size": [720, 576],
+    "Tap_S": {
+        "pos1": [325, 325],
+        "pos2": [365, 365],
+        "color": [255, 0, 0]
+    },
+    "Tap_H": {
+        "pos1": [462, 325],
+        "pos2": [502, 365],
+        "color": [0, 255, 0]
+    },
+    "Tan_S": {
+        "pos1": [224, 210],
+        "pos2": [264, 250],
+        "color": [0, 0, 255]
+    },
+    "Tan_L": {
+        "pos1": [104, 187],
+        "pos2": [144, 227],
+        "color": [255, 255, 0]
+    },
+    "Tan_R": {
+        "pos1": [340, 152],
+        "pos2": [380, 192],
+        "color": [0, 255, 255]
+    },
+    "tonic": 220,
+    "notes": [{
+            "label": "P_",
+            "cents": -500
+        },
+        {
+            "label": "d_",
+            "cents": -400
+        },
+        {
+            "label": "N_",
+            "cents": -100
+        },
+        {
+            "label": "S",
+            "cents": 0
+        },
+        {
+            "label": "r",
+            "cents": 100
+        },
+        {
+            "label": "G",
+            "cents": 400
+        },
+        {
+            "label": "M",
+            "cents": 600
+        },
+        {
+            "label": "P",
+            "cents": 700
+        },
+        {
+            "label": "d",
+            "cents": 800
+        },
+        {
+            "label": "N",
+            "cents": 1100
+        },
+        {
+            "label": "S'",
+            "cents": 1200
+        },
+        {
+            "label": "r'",
+            "cents": 1300
+        },
+        {
+            "label": "G'",
+            "cents": 1600
+        },
+        {
+            "label": "M'",
+            "cents": 1800
+        },
+        {
+            "label": "P'",
+            "cents": 1900
+        }
+    ]
+}
