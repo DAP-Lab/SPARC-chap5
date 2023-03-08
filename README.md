@@ -4,11 +4,11 @@ Supplementary material for chapter 5 of SPARC monograph - "Indian Art Music: A C
 This repository contains static HTML versions of the jupyter notebooks and interactive google colab links used to generate figures 1, 2, 3, 4, 5, 9 and 10 in Chapter 5.
 
 ### HTML files
-The HTML files are available in the static_HTML folder. The data and code are embedded in these files. 
+The HTML files are available in the static_HTML folder. The data and code are embedded in these files. <br />
 *Note: Each individual HTML file cannot be previewed in browser and is too large to download individually. One option could be to use the colab notebooks listed below instead or another (not-so efficient) alternative could be to clone the entier repo and vie these HTML files locally in your browser.*
 
 ### Colab links
-Each of the above listed figures has a colab notebook associated with it.
+Each of the above listed figures has a colab notebook associated with it. <br />
 *Please note, you need a google account to run or edit the notebooks. No account is required to view them.*
 1. [Fig 1](https://colab.research.google.com/drive/1gozqbP2oXndu3xOn_TiLbBEwFXa6b_2w?usp=sharing)
 2. [Fig 2](https://colab.research.google.com/drive/1AYMH3Vm2kl0q77S2K8W5138fVAL0UQ7X?usp=sharing)
