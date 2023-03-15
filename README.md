@@ -6,6 +6,7 @@ Links to the book: [Google Play](https://play.google.com/store/books/details?id=
 This repository contains the utility functions and the links to the google colab notebooks used to generate figures 1, 2, 3, 4, 5, 9 and 10 in Chapter 5.
 
 ### Colab links
+*Please note, you need a google account to run or edit the notebooks. No account is required to view them.* <br>
 Each of the above listed figures has a colab notebook associated with it.
 1. <a href="https://colab.research.google.com/drive/1gozqbP2oXndu3xOn_TiLbBEwFXa6b_2w?usp=sharing" target="_blank">Fig 1</a>
 2. <a href="https://colab.research.google.com/drive/1AYMH3Vm2kl0q77S2K8W5138fVAL0UQ7X?usp=sharing" target="_blank">Fig 2</a>
@@ -15,7 +16,7 @@ Each of the above listed figures has a colab notebook associated with it.
 6. <a href="https://colab.research.google.com/drive/1Az4EJkisOIHK5r_xkZGIEfFZzdqswu7R?usp=sharing" target="_blank">Fig 9</a>
 7. <a href="https://colab.research.google.com/drive/1nwWeWC_42esY8q39LoJ6nzvbgdzqglke?usp=sharing" target="_blank">Fig 10</a>
 
-For any questions regarding the code please contact nithya.shikarpur[at]mila[dot]quebec.
-
 ### Publications
 Clayton, Martin (2023). Hindustani Rhythm and Computational Analysis: A Musicological Perspective. In Indian Art Music: A Computational Perspective. Rao, Preeti, Murthy, Hema A. & Prasanna, S. R. M. Scheme for Promotion of Academic and Research Collaboration. 171-196.
+
+For any questions regarding the code please contact nithya.shikarpur[at]mila[dot]quebec.
