@@ -7,7 +7,8 @@ This repository contains the utility functions and the links to the google colab
 
 ### Colab links
 *Please note, you need a google account to run or edit the notebooks. No account is required to view them.* <br>
-Each of the above listed figures has a colab notebook associated with it.(Use Cmd+Click with MacOS and Ctrl+Click with Windows/Linux computers to click on the links and open them in new tabs)
+Each of the above listed figures has a colab notebook associated with it. <br>
+(Use Cmd+Click with MacOS and Ctrl+Click with Windows/Linux computers to click on the links and open them in new tabs)
 1. <a href="https://colab.research.google.com/drive/1gozqbP2oXndu3xOn_TiLbBEwFXa6b_2w?usp=sharing" target="_blank">Fig 1</a>
 2. <a href="https://colab.research.google.com/drive/1AYMH3Vm2kl0q77S2K8W5138fVAL0UQ7X?usp=sharing" target="_blank">Fig 2</a>
 3. <a href="https://colab.research.google.com/drive/1MB0DVkU38hC4K-tKEb5LXHL1x-bWJDar?usp=sharing" target="_blank">Fig 3</a>
