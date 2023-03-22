@@ -17,6 +17,8 @@ Each of the above listed figures has a colab notebook associated with it. <br>
 6. <a href="https://colab.research.google.com/drive/1Az4EJkisOIHK5r_xkZGIEfFZzdqswu7R?usp=sharing" target="_blank">Fig 9</a>
 7. <a href="https://colab.research.google.com/drive/1nwWeWC_42esY8q39LoJ6nzvbgdzqglke?usp=sharing" target="_blank">Fig 10</a>
 
+Data in these colab examples is from audio and annotations from [this reporsitory](https://osf.io/nkjgz/). <br>
+
 ### Publications
 Clayton, Martin (2023). Hindustani Rhythm and Computational Analysis: A Musicological Perspective. In Indian Art Music: A Computational Perspective. Rao, Preeti, Murthy, Hema A. & Prasanna, S. R. M. Scheme for Promotion of Academic and Research Collaboration. 171-196.
 
